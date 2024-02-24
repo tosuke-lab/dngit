@@ -3,7 +3,7 @@ import * as compress from "https://deno.land/x/compress@v0.4.6/mod.ts";
 
 const decoder = new TextDecoder("utf-8");
 
-await gitCatFile("6954ef265202b0cabd072ef91f031509b9f51b67");
+await gitCatFile("b6fc4c620b67d95f953a5c1c1230aaab5db5a1b0");
 
 async function gitCatFile(sha: string) {
   const res = await fetch(
